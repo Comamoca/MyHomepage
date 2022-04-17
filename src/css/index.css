@@ -1,0 +1,41 @@
+@import url("./navbar.css");
+:root {
+  --skyblue: #3D7693;
+  --palegreen: #718351;
+  --ocher: #BAA828;
+  --dark-brown: #6B4C30;
+  --light-brown: #7C684D;
+}
+
+
+.br::before {
+	content: "\A" ;
+	white-space: pre ;
+}
+
+.little-left {
+	position: relative;
+	left: 90px;
+}
+
+.by {
+	position: relative;
+	top: 50px;
+	left: 140px;
+}
+
+.motto {
+	position: relative;
+	bottom: 100px;
+	font-size: 30px;
+}
+
+.content {
+	position: relative;
+	bottom: 200px;
+}
+
+/* .navbar { */
+/* 	/1* background-color: gray; *1/ */
+/* } */
+/*# sourceMappingURL=index.css.map */
