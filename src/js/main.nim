@@ -1,7 +1,6 @@
 include karax / prelude
 
-
-import ../components/navibar
+import ../components/navibar/navibar
 
 
 proc heading(): VNode =

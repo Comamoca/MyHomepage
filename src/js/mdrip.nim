@@ -1,5 +1,5 @@
 include karax / prelude
-import ../components/navibar
+import ../components/navibar/navibar
 
 
 type Heading = object

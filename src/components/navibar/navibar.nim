@@ -2,6 +2,7 @@ include karax / prelude
 
 let siteTitle* = kstring"こまもかの壺"
 
+
 type Menu = object
   link: kstring
   text: kstring
@@ -12,7 +13,7 @@ proc navi*(): VNode =
     prof = new Menu
     works = new Menu
 
-  about.link = kstring"../index.html#about"
+  about.link = kstring"../index/html#about"
   about.text = kstring"About"
 
   prof.link = kstring"../index.html#prof"
@@ -28,7 +29,7 @@ proc navi*(): VNode =
       tdiv(class="uk-navbar-left"):
         ul(class="uk-navbar-nav"):
           li(class="uk-active"):
-            a(href="../index.html"):
+            a(href="index.html"):
               text siteTitle
           for menu in menus:
             li(class="uk-parent"):
