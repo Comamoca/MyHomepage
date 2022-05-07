@@ -35,3 +35,4 @@ proc navi*(): VNode =
             li(class="uk-parent"):
               a(href=menu.link):
                 text menu.text
+
